@@ -1,4 +1,6 @@
 # 🚀 Student Innovations Lab with GitHub Copilot
+![image](https://github.com/user-attachments/assets/80940b23-aa74-4ec5-a256-905ec75998e6)
+
 
 Welcome to **Student Innovations Lab**! This repository is a hands-on workspace where students can explore, create, and innovate using **GitHub Copilot**. Here, you’ll find a variety of issues and projects designed to help you practice Copilot’s capabilities, from generating code snippets to building complete prototypes. Whether you’re new to coding or experienced, this space is for you to develop skills, solve real-world problems, and bring your ideas to life.
 
