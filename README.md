@@ -44,3 +44,35 @@ For more details on setting up Copilot, check out the official [GitHub Copilot d
 ## 🚀 Ready to Innovate?
 
 We’re excited to see what you’ll create!
+
+## 📝 How to Run the Flask Application
+
+To run the Flask application, follow these steps:
+
+1. **Install the required dependencies**: Make sure you have Python and pip installed. Then, install the required packages by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Set up the database**: Initialize the SQLite database by running the following commands in the Python shell:
+   ```python
+   from app import db
+   db.create_all()
+   ```
+
+3. **Run the Flask application**: Start the Flask development server by running:
+   ```bash
+   flask run
+   ```
+
+4. **Access the application**: Open your web browser and go to `http://localhost:5000` to access the application.
+
+5. **API Endpoints**: The following API endpoints are available:
+   - `POST /register`: Register a new user.
+   - `POST /login`: Log in a user and receive a JWT token.
+   - `POST /login/google`: Log in a user using Google OAuth 2.0.
+   - `POST /login/facebook`: Log in a user using Facebook OAuth 2.0.
+   - `POST /ideas`: Create a new student innovation idea (requires JWT token).
+   - `GET /ideas`: Get all student innovation ideas (requires JWT token).
+   - `PUT /ideas/<id>`: Update a student innovation idea by ID (requires JWT token).
+   - `DELETE /ideas/<id>`: Delete a student innovation idea by ID (requires JWT token).
