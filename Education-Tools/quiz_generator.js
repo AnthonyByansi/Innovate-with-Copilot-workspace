@@ -1,1 +1,1 @@
-# quiz_generator - Starter file for Education-Tools
+// quiz_generator - Starter file for Education-Tools
